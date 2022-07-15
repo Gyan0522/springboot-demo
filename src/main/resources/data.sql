@@ -1,0 +1,3 @@
+insert into "user" (email_address, first_name, last_name, role, ssn, user_name, id) values ('gyan003@rediffmail.com', 'Gyan', 'prakash', 'Edit1', 'ssn1', 'gyan001', 101)
+insert into "user" (email_address, first_name, last_name, role, ssn, user_name, id) values ('gyan002@rediffmail.com', 'Gyan', 'prakash', 'Edit2', 'ssn2', 'gyan002', 102)
+insert into "user" (email_address, first_name, last_name, role, ssn, user_name, id) values ('gyan001@rediffmail.com', 'Gyan', 'prakash', 'Edit3', 'ssn3', 'gyan003', 103)
