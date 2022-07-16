@@ -1,0 +1,1 @@
+INSERT INTO USER (id, email_address, first_name, last_name, role, ssn, user_name) values (109,'gyan003@rediffmail.com', 'Gyan', 'prakash', 'Edit2', 'ssn1', 'gyan001');
