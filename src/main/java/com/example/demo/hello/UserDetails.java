@@ -1,4 +1,4 @@
-package com.example.demo.hello;
+package com.example.demo.Hello;
 
 public class UserDetails {
 
