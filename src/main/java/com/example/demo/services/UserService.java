@@ -17,6 +17,7 @@ public class UserService {
     // getallUsers method
     public List<User> getallUsers() {
 
+        System.out.println("Gyan --->1111");
         return userRepository.findAll();
 
     }

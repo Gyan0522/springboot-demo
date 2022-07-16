@@ -3,18 +3,19 @@ package com.example.demo.entities;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Table;
 import javax.persistence.Id;
 
 @Entity
-@Table(name = "`user`")
+@Table(name = "user")
 public class User {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "USER_NAME", length = 50, nullable = false, unique = true)
+    @Column(name = "USER_NAME", length = 50, nullable = false)
     private String username;
 
     @Column(name = "FIRST_NAME", length = 50, nullable = false)
@@ -29,7 +30,7 @@ public class User {
     @Column(name = "role", length = 50, nullable = false)
     private String role;
 
-    @Column(name = "SSN", length = 50, nullable = false, unique = true)
+    @Column(name = "SSN", length = 50, nullable = false)
     private String ssn;
 
     public User() {
